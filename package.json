@@ -10,5 +10,13 @@
     "react-native"
   ],
   "author": "",
-  "license": ""
+  "license": "",
+  "dependencies": {
+    "prop-types": "^15.6.2",
+    "static-container": "^1.2.0"
+  },
+  "devDependencies": {
+    "prop-types": "^15.6.2",
+    "static-container": "^1.2.0"
+  }
 }
