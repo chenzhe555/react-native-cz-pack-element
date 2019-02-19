@@ -46,7 +46,6 @@ class PackElement extends Component{
     /************************** 自定义方法 **************************/
     //对element进行处理
     handleElement = (eid = 0, element = null, callback = null, store = null) => {
-        console.log('handleElementhandleElementhandleElement');
         const tempElementMap = {...this.elementsMap};
         const tempStoresMap = {...this.storesMap};
         //如果组件存在，则赋值到组件数组中；如果组件不存在，则认为是删除组件
@@ -119,7 +118,6 @@ export default class PackElementFactory {
     updateElement(element, callback = null, store = null) {
         const { eid } = this;
         elementsArray.forEach( (handleElement) => {
-            console.log('elementsArray:::' + elementsArray.length);
             handleElement(eid, element, callback, store);
         });
     }
